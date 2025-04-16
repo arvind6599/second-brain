@@ -1,16 +1,9 @@
 ## chronica requirements file
-flask
-numpy==1.26.4
-faster-whisper
-ctranslate2==4.4.0
-qdrant-client
-sentence-transformers
-markdown
-wordcloud
-ollama
-pydantic
-sounddevice
-
+dspy
+RealtimeSTT
+openai
+wave
+python-dotenv
 
 ## realtimestt requirements
 PyAudio==0.2.14
@@ -26,10 +19,3 @@ websockets==14.2
 websocket-client==1.8.0
 numpy<2.0.0
 soundfile==0.13.1
-
-# Newly added dependencies based on your script
-rich==13.7.0             # For rich console formatting
-pyautogui==0.9.54        # For writing text to keyboard
-colorama==0.4.6          # Terminal text styling
-argparse                 # Argument parsing (usually built-in but listed for completeness)
-jupyter                  # Optional, for development
